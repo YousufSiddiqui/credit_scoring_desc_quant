@@ -21,7 +21,7 @@ colnames(C_D) = c("Account_Status","Months","Credit_History","Credit_Purpose","C
 graphics.off()
 
 
-par(mfrow=c(3,4))
+par(mfrow=c(3,3))
 
 #Variable: Months
 
@@ -53,7 +53,7 @@ m3 = mean(g3)
 std3 = sqrt(var(g3))
 h3 = hist(g3,col = "gray",breaks = 20, prob= TRUE,
           ylim = c(0,0.00035),xlim = c(min(C_D$Credit_Amount),max(C_D$Credit_Amount)),xlab = "Credit Amount", 
-          main = "Histogram of Variable: Credit_Amount")
+          main = "Histogram of Variable: Credit Amount")
 c3 = curve(dnorm(x, mean=m3, sd=std3), 
            col="red", lwd=2, add=TRUE, yaxt="n")
 
@@ -64,7 +64,7 @@ m4 = mean(g4)
 std4 = sqrt(var(g4))
 h4 = hist(g4,col = "gray",breaks = 5,prob= TRUE,
           ylim = c(0,0.7),xlim = c(min(C_D$Residence_Since),max(C_D$Residence_Since)),xlab = "Residence_Since", 
-          main = "Histogram of Variable: Residence_Since")
+          main = "Histogram of Variable: Residence Since")
 c4 = curve(dnorm(x, mean=m4, sd=std4), 
            col="red", lwd=2, add=TRUE, yaxt="n")
 
