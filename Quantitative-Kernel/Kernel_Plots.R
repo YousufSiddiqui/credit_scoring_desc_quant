@@ -22,7 +22,7 @@ colnames(C_D) = c("Account_Status","Months","Credit_History","Credit_Purpose","C
 
 
 
-par(mfrow=c(3,4))
+par(mfrow=c(3,3))
 
 d1 = density(C_D$Months)  
 plot(d1,main = "Kernel Density:Months")

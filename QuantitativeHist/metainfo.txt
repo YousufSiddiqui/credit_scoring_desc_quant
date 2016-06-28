@@ -2,20 +2,17 @@ Name of Quantlet: QuantitativeHist
 
 Published in: MUST NOT BE EMPTY!
 
-Description: Histograms
+Description: 'Plots Histograms superimposed on normal distribution
+of Quantitative Variables in the German Credit Score Data set. Breaks 
+used vary from variable to variable according to scale of the observation. 
+Histograms are depicted in gray while the normal distribution line is in red.' 
 
-Keywords: MUST NOT BE EMPTY!
+Keywords: plot, histogram, quantitave, descriptive statistics, normal distribution
 
-See also: for listing related, similar Quantlets or Github code from your point of view - delete if not used
+Author: Yousuf Hasan Siddiqui
 
-Author: SHOULD NOT BE EMPTY
-
-Submitted:  SHOULD NOT BE EMPTY
+Submitted:  Tue, June 28 2016 by Yousuf Hasan Siddiqui
 
 Datafile: for your data sets - delete if not used
 
-Input: (optional - delete if not used)
-
-Output:  (optional - delete if not used)
-
-Example: for your plots, graphs, results etc. - delete if not used
+Example: Plot of the PDF of Histograms
