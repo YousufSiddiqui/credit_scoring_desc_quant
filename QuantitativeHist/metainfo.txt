@@ -1,6 +1,6 @@
 Name of Quantlet: QuantitativeHist
 
-Published in: MUST NOT BE EMPTY!
+Published in: Statistical Programming Langugae Course (SS16)
 
 Description: 'Plots Histograms superimposed on normal distribution
 of Quantitative Variables in the German Credit Score Data set. Breaks 
@@ -13,6 +13,6 @@ Author: Yousuf Hasan Siddiqui
 
 Submitted:  Tue, June 28 2016 by Yousuf Hasan Siddiqui
 
-Datafile: for your data sets - delete if not used
+Datafile: german.data
 
 Example: Plot of the PDF of Histograms
